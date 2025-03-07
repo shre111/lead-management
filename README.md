@@ -14,7 +14,13 @@ This project consists of a backend and frontend application. Follow the instruct
    npm i
    ```
 
-3. Start the development server:
+3. Create a `.env` file in the backend directory with the following variables:
+   ```
+   PORT=your_port_number
+   MONGO_URI=your_mongodb_connection_string
+   ```
+
+4. Start the development server:
    ```bash
    npm run dev
    ```
